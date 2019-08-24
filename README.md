@@ -1,2 +1,2 @@
-# 10DaysOfCodesTest
+# 100DaysOfCodes
 TEST
