@@ -1,1 +1,14 @@
-
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 19:29:22) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> #this is just commint
+>>> #also this one
+>>> print ("its nice to meet you!")
+its nice to meet you!
+>>> """this is the text shouldnt appear at all but
+have to write it to make sure that i understood the concept of the
+triple qoutes"""
+'this is the text shouldnt appear at all but\nhave to write it to make sure that i understood the concept of the\ntriple qoutes'
+>>> #ok now i got it , the long text i that want it in multiline i must write it between the triple qoutes
+>>> print ('the second lesson is DONE!')
+the second lesson is DONE!
+>>> 
