@@ -1,1 +1,78 @@
-
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 19:29:22) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> print ('HELLO SUNSHINE')
+HELLO SUNSHINE
+>>> #todays lesson is about making variables
+>>> A=1
+>>> B= "RON"
+>>> A=
+SyntaxError: invalid syntax
+>>> print (A)
+1
+>>> print (B)
+RON
+>>> print (A+B)
+Traceback (most recent call last):
+  File "<pyshell#7>", line 1, in <module>
+    print (A+B)
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> print (AB)
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    print (AB)
+NameError: name 'AB' is not defined
+>>> print (A,B)
+1 RON
+>>> #you have to add a comma between the variables.
+>>> 
+>>> A,B,C,D = Lemmon,Orange,Apple,Banana
+Traceback (most recent call last):
+  File "<pyshell#12>", line 1, in <module>
+    A,B,C,D = Lemmon,Orange,Apple,Banana
+NameError: name 'Lemmon' is not defined
+>>> #the qoutes marker
+>>> A,B,C,D = 'Lemmon',"Orange","Apple","Banana"
+>>> print (B)
+Orange
+>>> print (D,A)
+Banana Lemmon
+>>> print (D,C,C,C,A,B)
+Banana Apple Apple Apple Lemmon Orange
+>>> #i'll try another way
+>>> A,B,C,D = 'Lemmon,Orange,Apple,Banana'
+Traceback (most recent call last):
+  File "<pyshell#19>", line 1, in <module>
+    A,B,C,D = 'Lemmon,Orange,Apple,Banana'
+ValueError: too many values to unpack (expected 4)
+>>> A,B,C,D = "Lemmon,Orange,Apple,Banana"
+Traceback (most recent call last):
+  File "<pyshell#20>", line 1, in <module>
+    A,B,C,D = "Lemmon,Orange,Apple,Banana"
+ValueError: too many values to unpack (expected 4)
+>>> Q=W=E= "SAMSUNG"
+>>> print (W)
+SAMSUNG
+>>> print (Q,W,E)
+SAMSUNG SAMSUNG SAMSUNG
+>>> print ('this mobile is' + W)
+this mobile isSAMSUNG
+>>> print ('this mobile is'  + W)
+this mobile isSAMSUNG
+>>>  print ('this mobile is' +  W )
+ 
+SyntaxError: unexpected indent
+>>> print ('this mobile is' +  W )
+this mobile isSAMSUNG
+>>> Z=4
+>>> X=3
+>>> print(x+z)
+Traceback (most recent call last):
+  File "<pyshell#30>", line 1, in <module>
+    print(x+z)
+NameError: name 'x' is not defined
+>>> print (X+Z)
+7
+>>> #the variable are sensitive to capital or small letters.
+>>> print(X+Z+3)
+10
+>>> 
